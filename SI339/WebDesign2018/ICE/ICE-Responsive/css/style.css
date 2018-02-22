@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 /*-----MAIN-----*/
 html {
   box-sizing: border-box;
@@ -19,9 +22,9 @@ html, body{
 a.skip:active, a.skip:focus, a.skip:hover {
     position:fixed;
     top: auto;
-    left: auto; 
-	width: auto; 
-	height: auto; 
+    left: auto;
+	width: auto;
+	height: auto;
 	overflow: visible;
 	z-index: 999;
 }
@@ -33,7 +36,7 @@ html, body, header, footer{
 }
 header, footer, .logo {
 	background-color: #211D24;
-	color: #DDDDDA; 
+	color: #DDDDDA;
 }
 body{
 	display: flex;
@@ -45,7 +48,7 @@ h1, h2, h3, h4, h5, h6{
 p{
 	font-family: 'Open Sans', sans-serif;
 }
-h1{ 
+h1{
 	font-size: 1.75em;
 }
 h2{
@@ -194,6 +197,12 @@ footer p{
 	margin-left: 2%;
 }
 .photo-cell img {
+	width: 98%;
+  	display: block;
+  	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+}
+
+.photo-cell2 img {
 	width: 98%;
   	display: block;
   	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
