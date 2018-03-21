@@ -1,0 +1,31 @@
+fieldset label {
+  display: block;
+}
+
+#work label {
+  display: block;
+}
+
+#position label {
+  display:block;
+}
+
+
+body {
+  /* background-color: lighten($link, 50%); */
+  font-family: "Raleway";
+  background-color: hsl(180, 60%, 97%);
+}
+
+fieldset {
+  background-color: lightblue;
+  border-radius: 2%;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+#title {
+  font-size: 30px;
+}
