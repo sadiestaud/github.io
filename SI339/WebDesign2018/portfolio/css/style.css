@@ -4,6 +4,9 @@
 html, body, header, footer {
     margin: 0;
     padding: 0;
+    color: #40413d;
+    font-family: 'Indie Flower', cursive;
+    /* color: lightgrey; */
 }
 html, body{
 	height: 100%;
@@ -15,14 +18,10 @@ header {
     position: fixed;
 }
 
-nav.main-nav {
-  background: rgb(188, 217, 220);
-  /* padding-top: 0; */
-}
-
 h1{
   display: inline-block;
   text-align: center;
+  font-size: 175%;
 }
 
 body {
@@ -31,6 +30,11 @@ body {
   flex-direction: column;
 }
 
+nav.main-nav {
+  background: rgb(188, 217, 220);
+  text-align: center;
+  /* padding-top: 0; */
+}
 .main-nav ul{
   /* border-top: 1px solid; */
   /* border-color: red;
@@ -39,30 +43,85 @@ body {
   display:block;
   list-style-type: none;
   padding: 0;
+  /* width: 80% */
 }
 
 .main-nav ul li{
   margin-top: 0px;
-  border: none;
-  border-color: red;
+  padding: 5px;
+  font-size: 15px;
+  /* border-top: 2px solid #FFFAFA; */
+  /* text-align: center; */
 }
 
-#home_pic {
+a {
+  text-decoration: none;
+  color: #40413d;
+
+}
+
+.home_content{
+  padding-top: 10px;
+  padding-bottom: 40px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.home_content p{
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.home_content img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 75%;
-  margin-top: 200px;
+  margin-top: 30px;
+  box-shadow: 0px 8px 10px grey, -10px 8px 15px grey, 10px 8px 15px grey;
+}
+
+.line{
+  border-top: 1px solid grey;
+  width: 75%;
+  margin: auto;
+}
+
+.nav_line {
+  border-top: 1px solid #FFFAFA;
+  width: 75%;
+  margin: auto;
+}
+
+#end{
+  padding-bottom: 100px;
 }
 
 .about_div{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-  margin-top: 200px;
+  margin-top: 30px;
+  padding-bottom: 20px;
   text-align: center;
+}
 
+/* margin-top: 30px;
+padding-bottom: 20px;
+text-align: center; */
+
+#about1{
+  margin-top: 200px;
+  padding-top: 10px;
+}
+
+.about_div p{
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+
+#about_img1{
+  margin-top: 30px;
 }
 
 .about_div img{
@@ -74,22 +133,38 @@ body {
   box-shadow: 0px 8px 10px grey, -10px 8px 15px grey, 10px 8px 15px grey;
 }
 .friend{
-  margin-top: 100px;
-  padding-bottom: 75px;
+  margin-top: 30px;
+  padding-bottom: 20px;
   text-align: center;
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
 }
+
+#friend1{
+  margin-top: 120px;
+  padding-top: 10px;
+}
+
 .friend img{
+  margin-bottom: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 75%;
-  margin-top: 50px;
+  margin-top: 20px;
   box-shadow: 0px 8px 10px grey, -10px 8px 15px grey, 10px 8px 15px grey;
 }
 
+.friend p{
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+
 h3 {
-  padding-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 200%;
+  margin-top: 10px;
 }
 
 
