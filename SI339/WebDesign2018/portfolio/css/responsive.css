@@ -27,6 +27,7 @@
     display: inline-block;
     padding-right: 15px;
     padding-bottom: 10px;
+    border-top: none;
   }
 
   div.nav_line{
@@ -60,6 +61,18 @@
     float:right;
     margin-top: 25px;
     width: 50%;
+  }
+
+  .main-nav ul li{
+    border-left: 1px solid #FFFAFA;
+    /* border-right: 1px solid #40413d; */
+    text-align: center;
+    padding-left: 25px;
+  }
+
+  li#nav_item_last {
+    border-right: 1px solid #FFFAFA;
+    padding-right: 25px;
   }
 
   div.home_content{
