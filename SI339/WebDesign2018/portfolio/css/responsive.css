@@ -54,7 +54,7 @@
 }
 
 /* this is full view */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .main-nav ul {
     padding-top: 0px;
     border: none;
@@ -79,6 +79,9 @@
     margin-top: 100px;
   }
 
+  img#home_pic{
+    width: 50%;
+  }
 
 
   div#home_grid{
@@ -100,6 +103,11 @@
     padding-top: 10px;
   }
 
+  div.about_div img{
+    width: 50%;
+  }
+
+
   div#snacks.about_div{
     margin-top: 0px;
     padding-top: 10px;
@@ -110,14 +118,19 @@
     text-align: center;
     padding-top: 150px;
     font-size: 130%;
+    padding-right: 100px;
   }
 
   h3{
-    font-size: 300%;
+    font-size: 200%;
+  }
+
+  img#about_img1{
+    width: 50%;
   }
 
   h3#our_friends{
-    font-size: 300%;
+    font-size: 200%;
     margin-top: 150px;
   }
 
@@ -125,6 +138,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 50px;
+  }
+
+  div.friend_grid img{
+    width: 50%;
   }
 
   #about1{
