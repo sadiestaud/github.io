@@ -83,10 +83,10 @@
     width: 50%;
   }
 
-
   div#home_grid{
     display:grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 100px;
   }
 
   div.about_grid{
