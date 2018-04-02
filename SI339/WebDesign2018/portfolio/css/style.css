@@ -5,7 +5,7 @@ html, body, header, footer {
     margin: 0;
     padding: 0;
     color: #40413d;
-    font-family: 'Indie Flower', cursive;
+    font-family: Lucida Console, Courier, monospace;
     /* color: lightgrey; */
 }
 html, body{
@@ -24,6 +24,17 @@ h1{
   font-size: 175%;
 }
 
+h2 {
+    margin-top: 200px;
+    padding-top: 30px;
+    font-size: 120%;
+    text-align: center;
+}
+
+#our_friends{
+  margin-top: 230px;
+  text-align: center;
+}
 body {
   background: rgb(237, 241, 242);
   display: flex;
@@ -52,6 +63,11 @@ nav.main-nav {
   font-size: 15px;
   /* border-top: 2px solid #FFFAFA; */
   /* text-align: center; */
+}
+
+.main-nav ul li a.current-page{
+	color: #FFFAFA;
+	font-weight: bold;
 }
 
 a {
@@ -92,6 +108,7 @@ a {
   border-top: 1px solid #FFFAFA;
   width: 75%;
   margin: auto;
+  /* display: none; */
 }
 
 #end{
@@ -140,7 +157,7 @@ text-align: center; */
 }
 
 #friend1{
-  margin-top: 120px;
+  margin-top: 10px;
   padding-top: 10px;
 }
 
@@ -161,9 +178,9 @@ text-align: center; */
 
 }
 
-h3 {
+h4 {
   margin-bottom: 10px;
-  font-size: 200%;
+  font-size: 120%;
   margin-top: 10px;
 }
 
