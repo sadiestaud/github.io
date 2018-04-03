@@ -48,6 +48,15 @@
     padding-right: 30px;
   }
 
+  img#about_img1{
+    width: 40%;
+  }
+
+  div.about_div img {
+    width: 40%;
+  }
+
+
   h3{
     font-size: 300%;
   }
