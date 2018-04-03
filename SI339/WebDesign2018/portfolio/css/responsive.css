@@ -51,6 +51,16 @@
   h3{
     font-size: 300%;
   }
+
+  h2#contact_us {
+    margin-top: 50px;
+  }
+
+  input[type=button] {
+      width: 60%;
+      background-color: grey;
+      border-radius: 20px;
+  }
 }
 
 /* this is full view */
@@ -149,5 +159,33 @@
     margin-top: 100px;
   }
 
+  h2#contact_us {
+    margin-top: 100px;
+  }
+
+  div.contact_content{
+    text-align: center;
+    background-color: #FFFAFA;
+    width: 50%;
+    height: 50%;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 25px;
+    margin: auto;
+  }
+
+  div.contact_content p{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  input[type=button] {
+      width: 30%;
+      background-color: grey;
+      border-radius: 20px;
+  }
 
 }
