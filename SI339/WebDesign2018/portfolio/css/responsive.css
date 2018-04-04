@@ -34,8 +34,16 @@
     display: none;
   }
 
-  .friend img{
-    width: 55%;
+  .friend img {
+      width: 40%;
+  }
+
+  img#home_pic {
+    width: 40%;
+  }
+
+  .home_content p {
+    margin-top: 50px;
   }
 
   .home_content{
