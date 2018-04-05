@@ -171,6 +171,10 @@
   div.friend_grid img{
     width: 50%;
   }
+  
+  div#charlie.friend{
+    margin-bottom: 80px;
+  }
 
   #about1{
     margin-top: 100px;
