@@ -1,0 +1,23 @@
+body {
+  /* margin: 0; */
+}
+
+.images {
+  /* width: 50%; */
+  border: 5px solid blue;
+  padding: 5%;
+  width: 90%;
+}
+
+.picture_containter  {
+  width: 50%;
+  display: inline-block;
+}
+
+body {
+  background-image: url('../images/sun-pattern.png');
+}
+
+#colleen {
+  float: left;
+}

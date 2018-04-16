@@ -2,7 +2,24 @@
 <html lang='en'>
 
   <head>
-    <!-- <link href='css/style.css' rel='stylesheet'> -->
+    <meta charset="UTF-8">
+    <title>Exam 2</title>
+    <link rel='stylesheet' href='css/style.css'>
+
+        <script>
+        function hideDiv() {
+            var x = document.getElementById("colleen");
+            var y = document.getElementById('umsi_symbol')
+            x.style.display = "none";
+        }
+        function showDiv() {
+            var x = document.getElementById("colleen");
+            if (x.style.display === "none") {
+            x.style.display = "block";
+
+        }
+      }
+        </script>
   </head>
 
  <body>
@@ -13,15 +30,15 @@
 	</header>
   <h1>Sadie Staudacher</h1>
   <div class='content'>
-    <div id='colleen'>
-      <img id = 'exam_pic' src='images/examPic.JPG' alt='Picture of Colleen and friends with a carboard alligator'>
+    <div class='picture_containter' id='colleen'>
+      <img class='images' id = 'exam_pic' src='images/examPic.JPG' alt='Picture of Colleen and friends with a carboard alligator'>
     </div>
-    <div id='umsi_symbol'>
-      <img id = 'umsi' src='images/UMSI-logo.jpg' alt='UMSI Logo'>
+    <div class='picture_containter' id='umsi_symbol'>
+      <img class='images' id = 'umsi' src='images/UMSI-logo.jpg' alt='UMSI Logo'>
     </div>
   </div>
-  <button type="button">Hide Image</button>
-  <button type="button">Show Image</button>
+<button type='button' onclick="hideDiv()">Hide Image</button>
+  <button type="button" onclick="showDiv()">Show Image</button>
 
 
 
